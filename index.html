@@ -4,10 +4,12 @@
 <head>
   <style>
     body {
-      background-color: #0f0e17;
+      background-color: #b8c1ec;
     }
 
     body {
+      display: flex;
+      justify-content: center;
       padding-top: 40px;
       padding-bottom: 40px;
     }
@@ -17,6 +19,12 @@
       object-fit: cover;
       border-radius: 128px;
     }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
     .thumbnail {
       width: 48px;
       height: 48px;
@@ -25,34 +33,43 @@
     }
     .name{
       color:#fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
     }
 
     .social-icons a {
-      color:#a7a9be;
+      color:#e35c70;
     }
 
     .link {
-      background-color: #ff8906;
+      background-color: #eebbc3;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 1500px;
+      display: flex;
+      align-items: center;
+      padding: 5px;
     }
 
     .link a {
       color:#e53170;
       text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
     }
 
     .items {
       display: flex;
       flex-direction: column;
       gap: 30px;
-      max-width: 1500px;
+      max-width: 800px;
+      flex-grow: 1;
     }
-
-    .link {
-      background-color: #fffffe;
-      display: flex;
-      text-align: center;
-    }
-    
   </style>
   <title>Jess Jno</title>
   <meta charset="utf-8">
